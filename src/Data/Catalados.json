@@ -61,5 +61,41 @@
         "descripcion": "La Placa Fibrocemento Multiplaca 4 mm 1.22x2.44 metros Mutiplaca es la solución perfecta para quienes buscan materiales duraderos y de alta calidad para la construcción.",
         "codigo":"Cod:113106",
         "ficha" : "https://tools02.promart.pe/generator-pdf_v2/?url_page=/placa-fibrocemento-4-mm-1-22x2-44-m-multiplaca-22482/p"
+    },
+    {
+        "id": 8,
+        "name": "Placa Fibrocemento Multiplaca 6 mm 1.22x2.44 metros Mutiplaca",
+        "categoria":"FIBROCEMENTO 6mm",
+        "image": "/catalago/plancha6mm.webp",
+        "descripcion": "Placa Fibrocemento Superboard ST 6mm 1.22x2.44 metros es una excelente opción para proyectos de construcción que requieran materiales resistentes y de alta durabilidad.",
+        "codigo":"Cod:113269",
+        "ficha" : "https://tools02.promart.pe/generator-pdf_v2/?url_page=/placa-fibrocemento-st-6-mm-1-22x2-44-superboard-22483/p"
+    },
+    {
+        "id": 9,
+        "name": "Placa Fibrocemento Multiplaca 8 mm 1.22x2.44 metros Mutiplaca",
+        "categoria":"FIBROCEMENTO 8mm",
+        "image": "/catalago/plancha8mm.jpg",
+        "descripcion": "La Placa Fibrocemento Superboard ST 8mm 1.22x2.44 metros es la solución ideal para una amplia variedad de aplicaciones constructivas.",
+        "codigo":"Cod:113065",
+        "ficha" : "https://tools02.promart.pe/generator-pdf_v2/?url_page=/placa-superboard-sq-1-22x2-44-m-8-mm/p"
+    },
+    {
+        "id": 10,
+        "name": "Placa Fibrocemento Multiplaca 10 mm 1.22x2.44 metros Mutiplaca",
+        "categoria":"FIBROCEMENTO 10mm",
+        "image": "/catalago/plancha10mm.webp",
+        "descripcion": "La Placa Fibrocemento Superboard ST 10mm 1.22x2.44 metros es la solución ideal para una amplia variedad de aplicaciones constructivas.",
+        "codigo":"Cod:113066",
+        "ficha" : "https://drive.google.com/file/d/1QDyHVy0uDDSNDCvpubs1vekpZMbTjWXn/view?pli=1"
+    },
+    {
+        "id": 11,
+        "name": "PLANCHA SUPERBOARD TEXTURADA MADERA 1.20 X 2.44 X 6.00MM",
+        "categoria":"PLANCHA TEXTURADA",
+        "image": "/catalago/planchatexturada.webp",
+        "descripcion": "Superboard Texturado es una placa de cemento con textura madera que brinda calidez y destaca la estética decorativa, permitiendo generar un aspecto modulado.",
+        "codigo":"Cod:142698",
+        "ficha" : "#"
     }
 ]

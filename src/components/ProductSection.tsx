@@ -17,7 +17,7 @@ type Props = {
 
 const ProductSection: React.FC<Props> = ({ title, data }) => {
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 6;
+  const itemsPerPage = 8;
 
   const totalPages = Math.ceil(data.length / itemsPerPage);
   const paginatedData = data.slice(
