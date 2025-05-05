@@ -20,7 +20,7 @@ function App() {
  <header>
     <div className="container header-container">
         <div className="logo">
-            <div className="logo-icon"><img className="img_logo" src="/img/22.jpg" alt="logo1" width="60px" height="60px"/></div>
+            <div className="logo-icon"><img className="img_logo" src="/22.jpg" alt="logo1" width="60px" height="60px"/></div>
             METAL<span>DRYLL</span>
         </div>
         <nav>
