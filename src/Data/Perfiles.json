@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "name": "Parante 64mm",
+        "categoria":"Perfiles",
+        "image": "/perfiles/parante64.webp",
+        "descripcion": "Para el armado de estructuras para paredes y cielos rasos",
+        "codigo":"Cod: 403036",
+        "ficha" : "https://precor.pe/admin_pmp_precor/public/data/product/download/perfiles-drywall_15542448042.pdf"
+    }
+]

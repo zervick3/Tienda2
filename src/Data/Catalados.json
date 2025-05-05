@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "Placa de yeso Gyplac ST Extraliviana ½” (12.7mm) 1.22m x 2.44 m ",
+        "categoria":"STANDAR",
+        "image": "/catalago/planchaStandar.webp",
+        "descripcion": "La Placa de Yeso Gyplac ST Extraliviana ½” (12.7mm) 1.22m x 2.44m es la solución perfecta para tus proyectos de remodelación y ampliación.",
+        "codigo":"Cod: 134417",
+        "ficha" : "https://static.eternit.pe/cdf/productos/pdf/ficha-tecnica-extraliviana-127mm.pdf"
+    },
+    {
+        "id": 2,
+        "name": "Placa de yeso Gyplac RH 1/2' (12.7mm) 1.22m x 2.44m ",
+        "categoria":"RH",
+        "image": "/catalago/planchaRH.webp",
+        "descripcion": "La Placa de Yeso Gyplac RH 1/2' (12.7mm) 1.22m x 2.44m es la solución perfecta para proyectos de construcción en ambientes húmedos como baños y cocinas",
+        "codigo":"Cod: 186419",
+        "ficha" : "https://static.eternit.pe/cdf/productos/pdf/FichatecnicaRHextraliviana.pdf"
+    },
+    {
+        "id": 3,
+        "name": "Placa de yeso Gyplac Standard  3/8' (12.7mm) 1.22m x 2.44m ",
+        "categoria":"STANDAR",
+        "image": "/catalago/plancha10.webp",
+        "descripcion": "La Placa de Yeso Gyplac Standard 3/8” (9.5 mm) 1.22m x 2.44m es la opción ideal para tus proyectos de construcción y remodelación.",
+        "codigo":"Cod: 120090",
+        "ficha" : "https://etex.azureedge.net/pi376342/original/1697036837/ficha-tecnica-gyplac-st-9.5mm"
+    },
+    {
+        "id": 4,
+        "name": "Placa de yeso Gyplac Standard  RF (12.7mm) 1.22m x 2.44m ",
+        "categoria":"RF",
+        "image": "/catalago/plancharf.webp",
+        "descripcion": "Placa de yeso de gran calidad, fabricada con una mezcla de yeso y fibra. Este tipo de placa tiene la particularidad de resistir el fuego. Ideal para lugares que puedan tener riesgo de incendio.",
+        "codigo":"Cod: 120094",
+        "ficha" : "https://etex.azureedge.net/pi495482/original/237989332/ft_placa_rf_12.7mm_gyplac_setiembre_2024.pdf"
+    },
+    {
+        "id": 5,
+        "name": "Placa de yeso Gyplac Standard  CIEL (7mm) 1.22m x 2.44m ",
+        "categoria":"CIEL",
+        "image": "/catalago/planchaciel.jpg",
+        "descripcion": "Descubre la versatilidad y calidad de la Placa Gyplac CIEL 1220x2440x7.0, ideal para la construcción de cielos rasos. Esta placa está compuesta por un núcleo de roca yeso bi hidratado y aditivos, revestida con un papel especial de celulosa 100% reciclado.",
+        "codigo":"Cod: 132519",
+        "ficha" : "https://etex.azureedge.net/pi376341/original/1552331636/ft_placa-ciel_7mm_gyplac_setiembre_2024.pdf"
+    },
+    {
+        "id": 6,
+        "name": "Placa de yeso Gyplac Standard  ER (12.7mm) 1.22m x 2.44m ",
+        "categoria":"ER",
+        "image": "/catalago/planchaER.jpg",
+        "descripcion": "La placa de yeso Gyplac ER 12.7 mm es fabricada bajo los más estrictos estándares de calidad internacional, cumpliendo con las especificaciones para placas de yeso descritas en la norma NTP 334.185-2015.",
+        "codigo":"Cod:ETEX306687",
+        "ficha" : "https://etex.azureedge.net/pi789389/original/-343476465/ft_placa-er_12.7mm_gyplac_2025_marzo.pdf"
+    },
+    {
+        "id": 7,
+        "name": "Placa Fibrocemento Multiplaca 4 mm 1.22x2.44 metros Mutiplaca",
+        "categoria":"FIBROCEMENTO 4mm",
+        "image": "/catalago/multiplaca-4mm.jpg",
+        "descripcion": "La Placa Fibrocemento Multiplaca 4 mm 1.22x2.44 metros Mutiplaca es la solución perfecta para quienes buscan materiales duraderos y de alta calidad para la construcción.",
+        "codigo":"Cod:113106",
+        "ficha" : "https://tools02.promart.pe/generator-pdf_v2/?url_page=/placa-fibrocemento-4-mm-1-22x2-44-m-multiplaca-22482/p"
+    }
+]

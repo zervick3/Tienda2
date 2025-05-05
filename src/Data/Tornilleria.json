@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "name": "Tornillo #6x1 cabeza de trompeta P/Fina ",
+        "categoria":"TORNILLOS",
+        "image": "/tornilleria/tornillo.jpg",
+        "descripcion": "Fijación de placas de yeso a perfileria metálica ligera",
+        "codigo":"Cod: TORNDRY0001",
+        "ficha" : "https://strutekperu.com/wp-content/uploads/2022/06/FT-STK-Tornillos.pdf"
+    }
+]

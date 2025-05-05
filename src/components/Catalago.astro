@@ -1,0 +1,495 @@
+---
+import '../styles/global.css';
+
+
+import logo1 from '../assets/img/22.jpg';
+import Catalagos from '@/Data/Catalados.json';
+import Perfiles from '@/Data/Perfiles.json';
+import Tornilleria from '@/Data/Tornilleria.json';
+import Masillas from '@/Data/Masilla.json';
+import Cintas from '@/Data/Citas.json';
+import Suspenciones from '@/Data/suspenciones.json';
+import Baldosas from '@/Data/Baldosas.json';
+import LanaVidrio from '@/Data/Lanas.json';
+import Coberturas from '@/Data/Cobertura.json'
+
+
+
+
+
+---
+ <!-- Header -->
+ <header>
+    <div class="container header-container">
+        <div class="logo">
+            <div class="logo-icon"><img class="img_logo" src={logo1.src} alt="logo1" width="60px" height="60px"/></div>
+            METAL<span>DRYLL</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Search Bar -->
+<div class="search-container">
+    <div class="container search-wrapper">
+        <div class="search-box">
+            <input type="text" class="search-input" placeholder="Buscar productos...">
+            <button class="search-btn">🔍</button>
+        </div>
+    </div>
+</div>
+
+<!-- Category Filters -->
+<div class="category-filters">
+    <div class="container filter-wrapper">
+        <button class="filter-btn active">Todos</button>
+        <button class="filter-btn">Placas de Yeso</button>
+        <button class="filter-btn">Perfiles Metálicos</button>
+        <button class="filter-btn">Tornillería</button>
+        <button class="filter-btn">Masillas</button>
+        <button class="filter-btn">Cintas</button>
+        <button class="filter-btn">Suspenciones</button>
+        <button class="filter-btn">Baldosa </button>
+        <button class="filter-btn">Lana Vidrio</button>
+        <button class="filter-btn">Cobertura</button>
+        <button class="filter-btn">Herramientas</button>
+        <button class="filter-btn">Accesorios</button>
+    </div>
+</div>
+
+<!-- Products Section -->
+<section class="products-section" id="products">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Placas de Yeso</h2>
+            <div class="view-options">
+                <button class="view-btn active">📱</button>
+                <button class="view-btn">🖥️</button>
+            </div>
+        </div>
+        
+        <div class="product-grid">
+            <!-- Product 1 -->
+             {
+                Catalagos.map((cat) => (
+            <div class="product-card">
+                <div class="product-img">
+                    <div class="category-label">{cat.categoria}</div>
+                    <img src={cat.image} alt="Placa Estándar" width="300px" height="200px"/>
+                </div>
+                <div class="product-content">
+                    <h3 class="product-title">{cat.name}</h3>
+                    <p class="product-description">{cat.descripcion} </p>
+                    <div class="product-footer">
+                        <span class="product-code">{cat.codigo}</span>
+                        <button class="product-btn"><a
+                class="btn card_btn text-center"
+                target="_blank"
+                href={cat.ficha}
+              >Ficha Técnica</a></button>
+                    </div>
+                </div>
+            </div>
+            ))
+            }
+            
+        </div>
+        
+        <!-- Pagination -->
+        <div class="pagination">
+            <button class="page-btn active">1</button>
+            <button class="page-btn">2</button>
+            <button class="page-btn">3</button>
+            <button class="page-btn">→</button>
+        </div>
+    </div>
+</section>
+
+<!-- Second Category Section -->
+<section class="products-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Perfiles Metálicos</h2>
+        </div>
+        
+        <div class="product-grid">
+            {
+                Perfiles.map((perfile) => (
+            
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <div class="category-label">{perfile.categoria}</div>
+                    <img src={perfile.image} alt={perfile.name} width="300px" height="200px"/>
+                </div>
+                <div class="product-content">
+                    <h3 class="product-title">{perfile.name}</h3>
+                    <p class="product-description">{perfile.descripcion}</p>
+                    <div class="product-footer">
+                        <span class="product-code">{perfile.codigo}</span>
+                        <button class="product-btn"><a
+                class="btn card_btn text-center"
+                target="_blank"
+                href={perfile.ficha}
+              >Ficha Técnica</a></button>
+                    </div>
+                </div>
+            </div>
+            ))
+            }
+            
+        </div>
+        
+        <!-- Pagination -->
+        <div class="pagination">
+            <button class="page-btn active">1</button>
+            <button class="page-btn">2</button>
+            <button class="page-btn">→</button>
+        </div>
+    </div>
+</section>
+
+<!-- tercera tornillos Category Section -->
+<section class="products-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Tornilleria</h2>
+        </div>
+        
+        <div class="product-grid">
+            {
+                Tornilleria.map((tornillos) => (
+            
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <div class="category-label">{tornillos.categoria}</div>
+                    <img src={tornillos.image} alt={tornillos.name} width="300px" height="200px"/>
+                </div>
+                <div class="product-content">
+                    <h3 class="product-title">{tornillos.name}</h3>
+                    <p class="product-description">{tornillos.descripcion}</p>
+                    <div class="product-footer">
+                        <span class="product-code">{tornillos.codigo}</span>
+                        <button class="product-btn"><a
+                class="btn card_btn text-center"
+                target="_blank"
+                href={tornillos.ficha}
+              >Ficha Técnica</a></button>
+                    </div>
+                </div>
+            </div>
+            ))
+            }
+            
+        </div>
+        
+        <!-- Pagination -->
+        <div class="pagination">
+            <button class="page-btn active">1</button>
+            <button class="page-btn">2</button>
+            <button class="page-btn">→</button>
+        </div>
+    </div>
+</section>
+
+<!-- 4 masillas  Category Section -->
+<section class="products-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Masillas </h2>
+        </div>
+        
+        <div class="product-grid">
+            {
+                Masillas.map((masilla) => (
+            
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <div class="category-label">{masilla.categoria}</div>
+                    <img src={masilla.image} alt={masilla.name} width="300px" height="200px"/>
+                </div>
+                <div class="product-content">
+                    <h3 class="product-title">{masilla.name}</h3>
+                    <p class="product-description">{masilla.descripcion}</p>
+                    <div class="product-footer">
+                        <span class="product-code">{masilla.codigo}</span>
+                        <button class="product-btn"><a
+                class="btn card_btn text-center"
+                target="_blank"
+                href={masilla.ficha}
+              >Ficha Técnica</a></button>
+                    </div>
+                </div>
+            </div>
+            ))
+            }
+            
+        </div>
+        
+        <!-- Pagination -->
+        <div class="pagination">
+            <button class="page-btn active">1</button>
+            <button class="page-btn">2</button>
+            <button class="page-btn">→</button>
+        </div>
+    </div>
+</section>
+
+<!-- 5 Cintas  Category Section -->
+<section class="products-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Cintas  </h2>
+        </div>
+        
+        <div class="product-grid">
+            {
+                Cintas.map((cinta) => (
+             
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <div class="category-label">{cinta.categoria}</div>
+                    <img src={cinta.image} alt={cinta.name} width="300px" height="200px"/>
+                </div>
+                <div class="product-content">
+                    <h3 class="product-title">{cinta.name}</h3>
+                    <p class="product-description">{cinta.descripcion}</p>
+                    <div class="product-footer">
+                        <span class="product-code">{cinta.codigo}</span>
+                        <button class="product-btn"><a
+                class="btn card_btn text-center"
+                target="_blank"
+                href={cinta.ficha}
+              >Ficha Técnica</a></button>
+                    </div>
+                </div>
+            </div>
+            ))
+            }
+            
+        </div>
+        
+        <!-- Pagination -->
+        <div class="pagination">
+            <button class="page-btn active">1</button>
+            <button class="page-btn">2</button>
+            <button class="page-btn">→</button>
+        </div>
+    </div>
+</section>
+
+<!-- 6 suspenciones Category Section -->
+<section class="products-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Cintas  </h2>
+        </div>
+        
+        <div class="product-grid">
+            {
+                Suspenciones.map((suspencione) => (
+             
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <div class="category-label">{suspencione.categoria}</div>
+                    <img src={suspencione.image} alt={suspencione.name} width="300px" height="200px"/>
+                </div>
+                <div class="product-content">
+                    <h3 class="product-title">{suspencione.name}</h3>
+                    <p class="product-description">{suspencione.descripcion}</p>
+                    <div class="product-footer">
+                        <span class="product-code">{suspencione.codigo}</span>
+                        <button class="product-btn"><a
+                class="btn card_btn text-center"
+                target="_blank"
+                href={suspencione.ficha}
+              >Ficha Técnica</a></button>
+                    </div>
+                </div>
+            </div>
+            ))
+            }
+            
+        </div>
+        
+        <!-- Pagination -->
+        <div class="pagination">
+            <button class="page-btn active">1</button>
+            <button class="page-btn">2</button>
+            <button class="page-btn">→</button>
+        </div>
+    </div>
+</section>
+
+<!-- 7 baldosa Category Section -->
+<section class="products-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Baldosas  </h2>
+        </div>
+        
+        <div class="product-grid">
+            {
+                Baldosas.map((baldosa) => (
+             
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <div class="category-label">{baldosa.categoria}</div>
+                    <img src={baldosa.image} alt={baldosa.name} width="300px" height="200px"/>
+                </div>
+                <div class="product-content">
+                    <h3 class="product-title">{baldosa.name}</h3>
+                    <p class="product-description">{baldosa.descripcion}</p>
+                    <div class="product-footer">
+                        <span class="product-code">{baldosa.codigo}</span>
+                        <button class="product-btn"><a
+                class="btn card_btn text-center"
+                target="_blank"
+                href={baldosa.ficha}
+              >Ficha Técnica</a></button>
+                    </div>
+                </div>
+            </div>
+            ))
+            }
+            
+        </div>
+        
+        <!-- Pagination -->
+        <div class="pagination">
+            <button class="page-btn active">1</button>
+            <button class="page-btn">2</button>
+            <button class="page-btn">→</button>
+        </div>
+    </div>
+</section>
+
+<!-- 8 lana vidrio Category Section -->
+<section class="products-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Lana de Vidrio  </h2>
+        </div>
+        
+        <div class="product-grid">
+            {
+                LanaVidrio.map((lana) => (
+             
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <div class="category-label">{lana.categoria}</div>
+                    <img src={lana.image} alt={lana.name} width="300px" height="200px"/>
+                </div>
+                <div class="product-content">
+                    <h3 class="product-title">{lana.name}</h3>
+                    <p class="product-description">{lana.descripcion}</p>
+                    <div class="product-footer">
+                        <span class="product-code">{lana.codigo}</span>
+                        <button class="product-btn"><a
+                class="btn card_btn text-center"
+                target="_blank"
+                href={lana.ficha}
+              >Ficha Técnica</a></button>
+                    </div>
+                </div>
+            </div>
+            ))
+            }
+            
+        </div>
+        
+        <!-- Pagination -->
+        <div class="pagination">
+            <button class="page-btn active">1</button>
+            <button class="page-btn">2</button>
+            <button class="page-btn">→</button>
+        </div>
+    </div>
+</section>
+
+<!-- 9 Coberturas Category Section -->
+<section class="products-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Coberturas   </h2>
+        </div>
+        
+        <div class="product-grid">
+            {
+                Coberturas.map((cobertura) => (
+             
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <div class="category-label">{cobertura.categoria}</div>
+                    <img src={cobertura.image} alt={cobertura.name} width="300px" height="200px"/>
+                </div>
+                <div class="product-content">
+                    <h3 class="product-title">{cobertura.name}</h3>
+                    <p class="product-description">{cobertura.descripcion}</p>
+                    <div class="product-footer">
+                        <span class="product-code">{cobertura.codigo}</span>
+                        <button class="product-btn"><a
+                class="btn card_btn text-center"
+                target="_blank"
+                href={cobertura.ficha}
+              >Ficha Técnica</a></button>
+                    </div>
+                </div>
+            </div>
+            ))
+            }
+            
+        </div>
+        
+        <!-- Pagination -->
+        <div class="pagination">
+            <button class="page-btn active">1</button>
+            <button class="page-btn">2</button>
+            <button class="page-btn">→</button>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container footer-container">
+        <div class='footer-col'>
+            <h3>MetalDryll </h3>
+            <p>Tu ferretería especializada en sistemas de construcción en seco. Ofrecemos productos de calidad, asesoramiento técnico y los mejores precios del mercado.</p>
+        </div>
+        <div class="footer-col">
+            <h3>Enlaces Rápidos</h3>
+            <ul class="footer-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>Contáctanos</h3>
+            <ul class="footer-links">
+                <li>📍 Calle Principal #123, Ciudad</li>
+                <li>📞 (123) 456-7890</li>
+                <li>📧 info@drytodo.com</li>
+            </ul>
+        </div>
+    </div>
+    <div class="container footer-bottom">
+        <p>&copy; 2025 Ferretería DryTodo - Todos los derechos reservados</p>
+    </div>
+</footer>

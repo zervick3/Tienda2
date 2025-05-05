@@ -1,0 +1,27 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "target": "es6",
+    "module": "esnext",
+    "lib": [
+      "dom",
+      "es6"
+    ],
+    "strict": true,
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
+  },
+  "include": [
+    "**/*"
+  ],
+  "exclude": [
+    "dist"
+  ]
+}
