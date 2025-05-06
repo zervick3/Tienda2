@@ -92,14 +92,18 @@ function App() {
         <div className="footer-col">
             <h3>Contáctanos</h3>
             <ul className="footer-links">
-                <li>📍 Calle Principal #123, Ciudad</li>
-                <li>📞 (123) 456-7890</li>
-                <li>📧 info@drytodo.com</li>
+                <li>📍 19 Marzo Mz K Lote 10, Nuevo Chimbote</li>
+                <li>📞 918 968 939</li>
+                <li>📞 963 019 545</li>
+                <li>📍 Av. Buenos Aires 646, Chimbote</li>
+                <li>📞 918 968 939</li>
+                <li>📞 933 406 590</li>
+                <li>📧 administracion@metaldryll.com</li>
             </ul>
         </div>
     </div>
     <div className="container footer-bottom">
-        <p>&copy; 2025 Ferretería DryTodo - Todos los derechos reservados</p>
+        <p>&copy; 2025 Ferretería METALDRYLL - Todos los derechos reservados &copy; <a href='https://ervic-linares.vercel.app/'>Ervic Linares</a></p>
     </div>
 </footer>
     

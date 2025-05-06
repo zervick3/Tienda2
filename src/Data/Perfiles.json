@@ -1,11 +1,43 @@
 [
     {
         "id": 1,
-        "name": "Parante 64mm",
+        "name": "PARANTE DE 64 X 38 X 0.45 X 3.00M / CONSTRUTEK",
         "categoria":"Perfiles",
         "image": "/perfiles/parante64.webp",
         "descripcion": "Para el armado de estructuras para paredes y cielos rasos",
         "codigo":"Cod: 403036",
+        "ficha" : "https://precor.pe/admin_pmp_precor/public/data/product/download/perfiles-drywall_15542448042.pdf"
+    },{
+        "id": 2,
+        "name": "PARANTE DE 89 X 38 X 0.45 X 3.00M / CONSTRUTEK",
+        "categoria":"Perfiles",
+        "image": "/perfiles/parante89.jpg",
+        "descripcion": "Para el armado de estructuras para paredes y cielos rasos",
+        "codigo":"Cod: 403042",
+        "ficha" : "https://precor.pe/admin_pmp_precor/public/data/product/download/perfiles-drywall_15542448042.pdf"
+    },{
+        "id": 3,
+        "name": "PARANTE DE 38 X 38 X 0.45 X 3.00M / CONSTRUTEK",
+        "categoria":"Perfiles",
+        "image": "/perfiles/parante38.jpg",
+        "descripcion": "Para el armado de estructuras para paredes y cielos rasos",
+        "codigo":"Cod: 403031",
+        "ficha" : "https://precor.pe/admin_pmp_precor/public/data/product/download/perfiles-drywall_15542448042.pdf"
+    },{
+        "id": 4,
+        "name": "OMEGA DE 30 X 24 X 15 X 0.45 X 3.00M / CONSTRUCTECK",
+        "categoria":"OMEGA",
+        "image": "/perfiles/omega.jpg",
+        "descripcion": "Perfil Drywall galvanizado para construcción en seco. Son utilizados para vigas o correas de techos, sistema de cielo raso y soporte de conexiones internas.",
+        "codigo":"Cod: 403084",
+        "ficha" : "https://precor.pe/admin_pmp_precor/public/data/product/download/perfiles-drywall_15542448042.pdf"
+    },{
+        "id": 5,
+        "name": "ESQUINERO DE  30 X 30 X 0.30 X 3.00M",
+        "categoria":"ESQUINERO",
+        "image": "/perfiles/esquinero.jpg",
+        "descripcion": "Perfil Drywall galvanizado para construcción en seco. Son utilizados para proteccion de golpes en esquinas de muros, ventanas, puertas, y bordes en general.",
+        "codigo":"Cod: 403081",
         "ficha" : "https://precor.pe/admin_pmp_precor/public/data/product/download/perfiles-drywall_15542448042.pdf"
     }
 ]
