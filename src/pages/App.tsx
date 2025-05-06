@@ -103,7 +103,7 @@ function App() {
         </div>
     </div>
     <div className="container footer-bottom">
-        <p>&copy; 2025 Ferretería METALDRYLL - Todos los derechos reservados &copy; <a href='https://ervic-linares.vercel.app/'>Ervic Linares</a></p>
+        <p>&copy; 2025 Ferretería METALDRYLL - Todos los derechos reservados &copy; <a href='https://ervic-linares.vercel.app/' target='_blank' rel='noreferrer' title='Visitar Miportfolio :)'>Ervic Linares</a></p>
     </div>
 </footer>
     

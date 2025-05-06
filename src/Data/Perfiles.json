@@ -39,5 +39,93 @@
         "descripcion": "Perfil Drywall galvanizado para construcción en seco. Son utilizados para proteccion de golpes en esquinas de muros, ventanas, puertas, y bordes en general.",
         "codigo":"Cod: 403081",
         "ficha" : "https://precor.pe/admin_pmp_precor/public/data/product/download/perfiles-drywall_15542448042.pdf"
+    },{
+        "id": 6,
+        "name": "ESQUINERO PLASTICO VINIL RÍGIDO 30 X 30 X 3.00M",
+        "categoria":"ESQUINERO PLASTICO",
+        "image": "/perfiles/esquineroplastico.jpg",
+        "descripcion": "Diseñado con ranuras que fácilmente adaptar la instalación en las esquinas. Las perforaciones aceptan fácilmente el compuesto para juntas ó yeso",
+        "codigo":"Cod: ETEX4049833",
+        "ficha" : ""
+    },{
+        "id": 7,
+        "name": "ESQUINERO PLASTICO VINIL CURVO 30 X 30 X 3.00M",
+        "categoria":"ESQUINERO PLASTICO",
+        "image": "/perfiles/esquinerocuvo.png",
+        "descripcion": "Diseñado con ranuras que fácilmente forman curvas o arcos, las perforaciones aceptan fácilmente el compuesto para juntas o yeso.",
+        "codigo":"Cod: ETEX4049832",
+        "ficha" : ""
+    },{
+        "id": 8,
+        "name": "RIEL DE 39 X 25 X 0.45 X 3.00M GAL / CONSTRUTEK",
+        "categoria":"RIEL",
+        "image": "/perfiles/riel39.jpg",
+        "descripcion": "Perfil Drywall galvanizado para construcción en seco. Son utilizados para proteccion de golpes en esquinas de muros, ventanas, puertas, y bordes en general.",
+        "codigo":"Cod: 402987",
+        "ficha" : "https://precor.pe/admin_pmp_precor/public/data/product/download/perfiles-drywall_15542448042.pdf"
+    },{
+        "id": 9,
+        "name": "RIEL DE 65 X 25 X 0.45 X 3.00M GAL / CONSTRUTEK",
+        "categoria":"RIEL",
+        "image": "/perfiles/riel65.jpg",
+        "descripcion": "Perfil Drywall galvanizado para construcción en seco. Son utilizados para proteccion de golpes en esquinas de muros, ventanas, puertas, y bordes en general.",
+        "codigo":"Cod: 402991",
+        "ficha" : "https://precor.pe/admin_pmp_precor/public/data/product/download/perfiles-drywall_15542448042.pdf"
+    },{
+        "id": 10,
+        "name": "RIEL DE 90 X 25 X 0.45 X 3.00M GAL / CONSTRUTEK",
+        "categoria":"RIEL",
+        "image": "/perfiles/riel90.jpg",
+        "descripcion": "Perfil Drywall galvanizado para construcción en seco. Son utilizados para proteccion de golpes en esquinas de muros, ventanas, puertas, y bordes en general.",
+        "codigo":"Cod: 402995",
+        "ficha" : "https://precor.pe/admin_pmp_precor/public/data/product/download/perfiles-drywall_15542448042.pdf"
+    },{
+        "id": 11,
+        "name": "PARANTE DE  64 X 38 X 0.90 X 3.00M / CONSTRUTEK",
+        "categoria":"PARANTE PESADO",
+        "image": "/perfiles/parante64pesado.jpg",
+        "descripcion": "Perfil Drywall galvanizado para construcción en seco. Son utilizados para proteccion de golpes en esquinas de muros, ventanas, puertas, y bordes en general.",
+        "codigo":"Cod: 403040",
+        "ficha" : "https://precor.pe/admin_pmp_precor/public/data/product/download/perfiles-drywall_15542448042.pdf"
+    },{
+        "id": 12,
+        "name": "PARANTE DE  89 X 38 X 0.90 X 3.00M / CONSTRUTEK",
+        "categoria":"PARANTE PESADO",
+        "image": "/perfiles/parante64pesado.jpg",
+        "descripcion": "Perfil Drywall galvanizado para construcción en seco. Son utilizados para proteccion de golpes en esquinas de muros, ventanas, puertas, y bordes en general.",
+        "codigo":"Cod: 403047",
+        "ficha" : "https://precor.pe/admin_pmp_precor/public/data/product/download/perfiles-drywall_15542448042.pdf"
+    },{
+        "id": 13,
+        "name": "PARANTE DE  38 X 38 X 0.90 X 3.00M / CONSTRUTEK",
+        "categoria":"PARANTE PESADO",
+        "image": "/perfiles/parante38.jpg",
+        "descripcion": "Perfil Drywall galvanizado para construcción en seco. Son utilizados para proteccion de golpes en esquinas de muros, ventanas, puertas, y bordes en general.",
+        "codigo":"Cod: 403047",
+        "ficha" : "https://precor.pe/admin_pmp_precor/public/data/product/download/perfiles-drywall_15542448042.pdf"
+    },{
+        "id": 14,
+        "name": "RIEL DE 65 X 38X 0.90 X 3.00M / CONSTRUTEK",
+        "categoria":"RIEL PESADO",
+        "image": "/perfiles/riel65.jpg",
+        "descripcion": "Perfil Drywall galvanizado para construcción en seco. Son utilizados para proteccion de golpes en esquinas de muros, ventanas, puertas, y bordes en general.",
+        "codigo":"Cod: 403047",
+        "ficha" : "https://precor.pe/admin_pmp_precor/public/data/product/download/perfiles-drywall_15542448042.pdf"
+    },{
+        "id": 15,
+        "name": "RIEL DE 90 X 38X 0.90 X 3.00M / CONSTRUTEK",
+        "categoria":"RIEL PESADO",
+        "image": "/perfiles/riel65.jpg",
+        "descripcion": "Perfil Drywall galvanizado para construcción en seco. Son utilizados para proteccion de golpes en esquinas de muros, ventanas, puertas, y bordes en general.",
+        "codigo":"Cod: 402993",
+        "ficha" : "https://precor.pe/admin_pmp_precor/public/data/product/download/perfiles-drywall_15542448042.pdf"
+    },{
+        "id": 16,
+        "name": "RIEL DE 39 X 38X 0.90 X 3.00M / CONSTRUTEK",
+        "categoria":"RIEL PESADO",
+        "image": "/perfiles/riel39.jpg",
+        "descripcion": "Perfil Drywall galvanizado para construcción en seco. Son utilizados para proteccion de golpes en esquinas de muros, ventanas, puertas, y bordes en general.",
+        "codigo":"Cod: 40299339",
+        "ficha" : "https://precor.pe/admin_pmp_precor/public/data/product/download/perfiles-drywall_15542448042.pdf"
     }
 ]
