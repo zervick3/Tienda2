@@ -1,4 +1,4 @@
-import React from 'react';
+
 import '@/styles/global.css';
 
 import Catalagos from '@/Data/Catalados.json';
@@ -12,8 +12,10 @@ import LanaVidrio from '@/Data/Lanas.json';
 import Coberturas from '@/Data/Cobertura.json';
 
 import ProductSection from '@/components/ProductSection';
-
+import React, { useState } from 'react';
 function App() {
+    const [categoriaSeleccionada, setCategoriaSeleccionada] = useState("Todos");
+
   return ( 
     <>
     
@@ -46,33 +48,69 @@ function App() {
 
 
 <div className="category-filters">
-    <div className="container filter-wrapper">
-        <button className="filter-btn active">Todos</button>
-        <button className="filter-btn">Placas de Yeso</button>
-        <button className="filter-btn">Perfiles Metálicos</button>
-        <button className="filter-btn">Tornillería</button>
-        <button className="filter-btn">Masillas</button>
-        <button className="filter-btn">Cintas</button>
-        <button className="filter-btn">Suspenciones</button>
-        <button className="filter-btn">Baldosa </button>
-        <button className="filter-btn">Lana Vidrio</button>
-        <button className="filter-btn">Cobertura</button>
-        <button className="filter-btn">Herramientas</button>
-        <button className="filter-btn">Accesorios</button>
-    </div>
+  <div className="container filter-wrapper">
+    {[
+      "Todos",
+      "Placas",
+      "Perfiles Metálicos",
+      "Tornillería",
+      "Masillas",
+      "Cintas",
+      "Suspenciones",
+      "Baldosa",
+      "Lana Vidrio",
+      "Cobertura",
+      "Herramientas",
+      "Accesorios",
+    ].map((categoria) => (
+      <button
+        key={categoria}
+        className={`filter-btn ${categoriaSeleccionada === categoria ? "active" : ""}`}
+        onClick={() => setCategoriaSeleccionada(categoria)}
+      >
+        {categoria}
+      </button>
+    ))}
+  </div>
 </div>
     
-    <div>
-      <ProductSection title="Placas de Yeso" data={Catalagos} />
-      <ProductSection title="Perfiles Metálicos" data={Perfiles} />
-      <ProductSection title="Tornillería" data={Tornilleria} />
-      <ProductSection title="Masillas" data={Masillas} />
-      <ProductSection title="Cintas" data={Cintas} />
-      <ProductSection title="Suspenciones" data={Suspenciones} />
-      <ProductSection title="Baldosas" data={Baldosas} />
-      <ProductSection title="Lana Vidrio" data={LanaVidrio} />
-      <ProductSection title="Coberturas" data={Coberturas} />
-    </div>
+<div>
+  {(categoriaSeleccionada === "Todos" || categoriaSeleccionada === "Placas") && (
+    <ProductSection title="Placas de Yeso / SUPERBOARD" data={Catalagos} />
+  )}
+
+  {(categoriaSeleccionada === "Todos" || categoriaSeleccionada === "Perfiles Metálicos") && (
+    <ProductSection title="Perfiles Metálicos" data={Perfiles} />
+  )}
+
+  {(categoriaSeleccionada === "Todos" || categoriaSeleccionada === "Tornillería") && (
+    <ProductSection title="Tornillería" data={Tornilleria} />
+  )}
+
+  {(categoriaSeleccionada === "Todos" || categoriaSeleccionada === "Masillas") && (
+    <ProductSection title="Masillas" data={Masillas} />
+  )}
+
+  {(categoriaSeleccionada === "Todos" || categoriaSeleccionada === "Cintas") && (
+    <ProductSection title="Cintas" data={Cintas} />
+  )}
+
+  {(categoriaSeleccionada === "Todos" || categoriaSeleccionada === "Suspenciones") && (
+    <ProductSection title="Suspenciones" data={Suspenciones} />
+  )}
+
+  {(categoriaSeleccionada === "Todos" || categoriaSeleccionada === "Baldosa") && (
+    <ProductSection title="Baldosa" data={Baldosas} />
+  )}
+
+  {(categoriaSeleccionada === "Todos" || categoriaSeleccionada === "Lana Vidrio") && (
+    <ProductSection title="Lana Vidrio" data={LanaVidrio} />
+  )}
+
+  {(categoriaSeleccionada === "Todos" || categoriaSeleccionada === "Cobertura") && (
+    <ProductSection title="Cobertura" data={Coberturas} />
+  )}
+</div>
     
 <footer>
     <div className="container footer-container">
