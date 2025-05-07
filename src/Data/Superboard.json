@@ -1,0 +1,92 @@
+[
+    {
+        "id": 7,
+        "name": "Placa Fibrocemento Multiplaca 4 mm 1.22x2.44 metros Mutiplaca",
+        "categoria":"FIBROCEMENTO 4mm",
+        "image": "/catalago/multiplaca-4mm.jpg",
+        "descripcion": "La Placa Fibrocemento Multiplaca 4 mm 1.22x2.44 metros Mutiplaca es la solución perfecta para quienes buscan materiales duraderos y de alta calidad para la construcción.",
+        "codigo":"Cod:113106",
+        "ficha" : "https://etex.azureedge.net/pi809214/original/242601842/ficha-tecnica-multiplaca-4-mm"
+    },
+    {
+        "id": 8,
+        "name": "Placa Fibrocemento Multiplaca 6 mm 1.22x2.44 metros ",
+        "categoria":"FIBROCEMENTO 6mm",
+        "image": "/catalago/plancha6mm.webp",
+        "descripcion": "Placa Fibrocemento Superboard ST 6mm 1.22x2.44 metros es una excelente opción para proyectos de construcción que requieran materiales resistentes y de alta durabilidad.",
+        "codigo":"Cod:113269",
+        "ficha" : "https://etex.azureedge.net/pi789328/original/368957766/cielo-raso-6mm-1.pdf"
+    },
+    {
+        "id": 9,
+        "name": "Placa Fibrocemento Multiplaca 8 mm 1.22x2.44 metros ",
+        "categoria":"FIBROCEMENTO 8mm",
+        "image": "/catalago/plancha8mm.jpg",
+        "descripcion": "La Placa Fibrocemento Superboard ST 8mm 1.22x2.44 metros es la solución ideal para una amplia variedad de aplicaciones constructivas.",
+        "codigo":"Cod:113065",
+        "ficha" : "https://etex.azureedge.net/pi789332/original/-1775983220/ficha-tecnica-pared-interior-8-mm"
+    },
+    {
+        "id": 10,
+        "name": "Placa Fibrocemento Multiplaca 10 mm 1.22x2.44 ",
+        "categoria":"FIBROCEMENTO 10mm",
+        "image": "/catalago/plancha10mm.webp",
+        "descripcion": "La Placa Fibrocemento Superboard ST 10mm 1.22x2.44 metros es la solución ideal para una amplia variedad de aplicaciones constructivas.",
+        "codigo":"Cod:113066",
+        "ficha" : "https://drive.google.com/file/d/1QDyHVy0uDDSNDCvpubs1vekpZMbTjWXn/view?pli=1"
+    },
+    {
+        "id": 11,
+        "name": "PLANCHA SUPERBOARD TEXTURADA MADERA 1.20 X 2.44 X 6.00MM",
+        "categoria":"PLANCHA TEXTURADA",
+        "image": "/catalago/planchatexturada.webp",
+        "descripcion": "Superboard Texturado es una placa de cemento con textura madera que brinda calidez y destaca la estética decorativa, permitiendo generar un aspecto modulado.",
+        "codigo":"Cod:142698",
+        "ficha" : "#"
+    },
+    {
+        "id": 12,
+        "name": "PLANCHA SUPERBOARD  1.20 X 2.44 15mm ",
+        "categoria":"FIBROCEMENTO 15mm",
+        "image": "/catalago/plancha15mm.jfif",
+        "descripcion": "Superboard Entrepiso 15 mm es una placa plana de fibrocemento fabricada mediante un proceso de autoclave (alta presión, temperatura y humedad).",
+        "codigo":"Cod:113089",
+        "ficha" : "https://etex.azureedge.net/pi789323/original/289557077/entrepiso-15mm.pdf"
+    },
+    {
+        "id": 13,
+        "name": "SUPERBOARD ENTREPISO PLUS 1.20 X 2.44 17 mm ",
+        "categoria":"FIBROCEMENTO 17mm",
+        "image": "/catalago/plancha17mm.jfif",
+        "descripcion": "Superboard Entrepiso Plus 17 mm es una placa plana de fibrocemento fabricada mediante un proceso de autoclave (alta presión, temperatura y humedad).",
+        "codigo":"Cod:113090",
+        "ficha" : "https://etex.azureedge.net/pi789324/original/1204608410/entrepiso-17mm.pdf"
+    },
+    {
+        "id": 14,
+        "name": "SUPERBOARD ENTREPISO PLUS 1.20 X 2.44 20 mm ",
+        "categoria":"FIBROCEMENTO 20mm",
+        "image": "/catalago/plancha20mm.jfif",
+        "descripcion": "Superboard Entrepiso Extra Plus 20 mm es una placa plana de fibrocemento fabricada mediante un proceso de autoclave (alta presión, temperatura y humedad).",
+        "codigo":"Cod:113091",
+        "ficha" : "https://etex.azureedge.net/pi789330/original/1678957493/ficha-tecnica-entrepiso-20-mm"
+    },
+    {
+        "id": 15,
+        "name": "SIMPLISIMA MADERA RUSTICA 2.40 X 1.20 X 6MM ",
+        "categoria":"LÍNEA MADERA",
+        "image": "/catalago/simplisimamadera.jfif",
+        "descripcion": "Simplísima es una placa de fibrocemento impresa con diseño y terminación decorativa, que mejora la calidez y estética de espacios interiores y exteriores.",
+        "codigo":"Cod:293792",
+        "ficha" : ""
+    },
+    {
+        "id": 16,
+        "name": "CERÁMICA VINTAGE LISBOA2.40 X 1.20 X 6MM ",
+        "categoria":"LÍNEA MADERA",
+        "image": "/catalago/simplisimavintage.jfif",
+        "descripcion": "Simplísima es una placa de fibrocemento impresa con diseño y terminación decorativa, que mejora la calidez y estética de espacios interiores y exteriores.",
+        "codigo":"Cod:303535",
+        "ficha" : ""
+    }
+]

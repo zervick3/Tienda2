@@ -10,14 +10,48 @@ import Suspenciones from '@/Data/suspenciones.json';
 import Baldosas from '@/Data/Baldosas.json';
 import LanaVidrio from '@/Data/Lanas.json';
 import Coberturas from '@/Data/Cobertura.json';
-
+import SuperBound from '@/Data/Superboard.json';
 import ProductSection from '@/components/ProductSection';
 import React, { useState } from 'react';
 function App() {
     const [categoriaSeleccionada, setCategoriaSeleccionada] = useState("Todos");
+    const [busqueda, setBusqueda] = useState('');
+
+    
+    const categorias = [
+        { nombre: "Placas de yeso", datos: Catalagos },
+        { nombre: "Superboard", datos: SuperBound },
+        { nombre: "Perfiles Metálicos", datos: Perfiles },
+        { nombre: "Tornillería", datos: Tornilleria },
+        { nombre: "Masillas", datos: Masillas },
+        { nombre: "Cintas", datos: Cintas },
+        { nombre: "Suspenciones", datos: Suspenciones },
+        { nombre: "Baldosa", datos: Baldosas },
+        { nombre: "Lana Vidrio", datos: LanaVidrio },
+        { nombre: "Cobertura", datos: Coberturas },
+      ];
+      const filtrarPorBusqueda = (productos: any[]) => {
+        const palabrasClave = busqueda.toLowerCase().split(" ").filter(p => p.trim() !== "");
+      
+        return productos.filter((producto) => {
+          const nombreProducto = producto.name.toLowerCase();
+          return palabrasClave.every(palabra => nombreProducto.includes(palabra));
+        });
+      };
+
+
+      const seccionesFiltradas = categorias
+      .filter(c => categoriaSeleccionada === "Todos" || categoriaSeleccionada === c.nombre)
+      .map(c => {
+        const productosFiltrados = filtrarPorBusqueda(c.datos);
+        return productosFiltrados.length > 0
+          ? <ProductSection key={c.nombre} title={c.nombre} data={productosFiltrados} />
+          : null;
+      });
 
   return ( 
     <>
+    
     
  <header>
     <div className="container header-container">
@@ -28,7 +62,7 @@ function App() {
         <nav>
             <ul>
                 <li><a href="#home">Inicio</a></li>
-                <li><a href="#products">Productos</a></li>
+                <li><a href="/">Productos</a></li>
                 <li><a href="#about">Nosotros</a></li>
                 <li><a href="#contact">Contacto</a></li>
             </ul>
@@ -40,7 +74,14 @@ function App() {
 <div className="search-container">
     <div className="container search-wrapper">
         <div className="search-box">
-            <input type="text" className="search-input" placeholder="Buscar productos..."/>
+
+            <input type="text"
+                   className="search-input"
+                   placeholder="Buscar productos..."
+                   value={busqueda}
+                   onChange={(e) => setBusqueda(e.target.value)}
+            />
+
             <button className="search-btn">🔍</button>
         </div>
     </div>
@@ -51,7 +92,8 @@ function App() {
   <div className="container filter-wrapper">
     {[
       "Todos",
-      "Placas",
+      "Placas de yeso",
+      "Superboard",
       "Perfiles Metálicos",
       "Tornillería",
       "Masillas",
@@ -75,40 +117,10 @@ function App() {
 </div>
     
 <div>
-  {(categoriaSeleccionada === "Todos" || categoriaSeleccionada === "Placas") && (
-    <ProductSection title="Placas de Yeso / SUPERBOARD" data={Catalagos} />
-  )}
-
-  {(categoriaSeleccionada === "Todos" || categoriaSeleccionada === "Perfiles Metálicos") && (
-    <ProductSection title="Perfiles Metálicos" data={Perfiles} />
-  )}
-
-  {(categoriaSeleccionada === "Todos" || categoriaSeleccionada === "Tornillería") && (
-    <ProductSection title="Tornillería" data={Tornilleria} />
-  )}
-
-  {(categoriaSeleccionada === "Todos" || categoriaSeleccionada === "Masillas") && (
-    <ProductSection title="Masillas" data={Masillas} />
-  )}
-
-  {(categoriaSeleccionada === "Todos" || categoriaSeleccionada === "Cintas") && (
-    <ProductSection title="Cintas" data={Cintas} />
-  )}
-
-  {(categoriaSeleccionada === "Todos" || categoriaSeleccionada === "Suspenciones") && (
-    <ProductSection title="Suspenciones" data={Suspenciones} />
-  )}
-
-  {(categoriaSeleccionada === "Todos" || categoriaSeleccionada === "Baldosa") && (
-    <ProductSection title="Baldosa" data={Baldosas} />
-  )}
-
-  {(categoriaSeleccionada === "Todos" || categoriaSeleccionada === "Lana Vidrio") && (
-    <ProductSection title="Lana Vidrio" data={LanaVidrio} />
-  )}
-
-  {(categoriaSeleccionada === "Todos" || categoriaSeleccionada === "Cobertura") && (
-    <ProductSection title="Cobertura" data={Coberturas} />
+{seccionesFiltradas.every(section => section === null) ? (
+    <p style={{ textAlign: 'center', padding: '2rem' }}>No se encontraron productos que coincidan con tu búsqueda.</p>
+  ) : (
+    seccionesFiltradas
   )}
 </div>
     
@@ -122,7 +134,7 @@ function App() {
             <h3>Enlaces Rápidos</h3>
             <ul className="footer-links">
                 <li><a href="#">Inicio</a></li>
-                <li><a href="#">Productos</a></li>
+                <li><a href="/">Productos</a></li>
                 <li><a href="#">Nosotros</a></li>
                 <li><a href="#">Contacto</a></li>
             </ul>
