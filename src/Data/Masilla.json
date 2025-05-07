@@ -7,5 +7,61 @@
         "descripcion": "La Masilla Gyplac es el complemento ideal para lograr un excelente acabado de junta invisible, luego de instalar las placas de yeso Gyplac en paredes y cielos rasos interiores. Este producto es fabricado de acuerdo con la norma ASTM C475/C475M.",
         "codigo":"Cod: 126032",
         "ficha" : "https://etex.azureedge.net/pi780262/original/789466626/ft-masilla-en-pasta-gyplac-20kg_setiembre-2024.pdf"
+    },{
+        "id": 2,
+        "name": "MASILLA BALDE 27 KG / GYPLAC ",
+        "categoria":"MASILLA",
+        "image": "/masilla/masillabalde.webp",
+        "descripcion": "Nuestra Masilla en Pasta Lista para Usar Gyplac es el complemento ideal para realizar la unión de placas de yeso con cinta de papel microperforada y lograr un excelente acabado de junta invisible.",
+        "codigo":"Cod: 403108",
+        "ficha" : "https://etex.azureedge.net/pi473919/original/-838647573/ft_masillapasta_gyplac_agosto_2024v2.pdf"
+    },{
+        "id": 3,
+        "name": "MASILLA BOLSA 5 KG / GYPLAC ",
+        "categoria":"MASILLA",
+        "image": "/masilla/masilla5kg.webp",
+        "descripcion": "Nuestra Masilla en Pasta Lista para Usar Gyplac es el complemento ideal para realizar la unión de placas de yeso con cinta de papel microperforada y lograr un excelente acabado de junta invisible.",
+        "codigo":"Cod: 410396",
+        "ficha" : "https://etex.azureedge.net/pi473919/original/-838647573/ft_masillapasta_gyplac_agosto_2024v2.pdf"
+    },{
+        "id": 4,
+        "name": "MASILLA BALDE ANTIHUMEDAD 15 KG / GYPLAC ",
+        "categoria":"MASILLA",
+        "image": "/masilla/masillaah.png",
+        "descripcion": "Pasta para masillar juntas de placas de Gyplac Antihumedad AH en zonas que presentan alta humedad. Da una solución a largo plazo porque no se honguea ni daña con la presencia de humedad. Deja lista la superficie para su acabado final con pintura látex.",
+        "codigo":"Cod: 294532",
+        "ficha" : "https://drive.google.com/file/d/1Sxpca1ti2YJt_mWvSRzlvEqXQeRCRKI1/view"
+    },{
+        "id": 5,
+        "name": "MASILLA EN POLVO SECADO 90 MIN SACO 25 KG / GYPLAC",
+        "categoria":"MASILLA",
+        "image": "/masilla/masillapolvo.webp",
+        "descripcion": "Nuestra Masilla en Polvo Gyplac es el complemento ideal para el tratamiento de juntas de placas de yeso Gyplac. Al agregarle agua se obtiene una pasta o mastick que asegura y garantiza una excelente adherencia y una óptima trabajabilidad. Su tiempo de fraguado es de 120 minutos.",
+        "codigo":"Cod: 143114",
+        "ficha" : "https://etex.azureedge.net/pi617761/original/683686842/ft_masilla_polvo_gyplac_agosto_2024_v2.pdf"
+    },{
+        "id": 6,
+        "name": "MASILLA EN POLVO SECADO 90 MIN JUNTAPRO 25 KG / VOLCAN",
+        "categoria":"MASILLA",
+        "image": "/masilla/masillavolcan2.webp",
+        "descripcion": "La Masilla JuntaPro Volcán se encuentra disponible en su formato de polvo elaborado a base de sulfato de yeso y aditivos especiales, especial para el tratamiento de junta invisible de Volcanita, se puede usar además para reparar muros de hormigón, ladrillos y estuco..",
+        "codigo":"Cod: VOL143114",
+        "ficha" : "https://www.volcanperu.com/documents/ficha-tecnica-del-producto/ficha-tcnica-masilla-juntapro.pdf"
+    },{
+        "id": 7,
+        "name": "MASILLA CAJA JUNTAPRO 20 KG / VOLCAN",
+        "categoria":"MASILLA",
+        "image": "/masilla/masilla-volcan.jpg",
+        "descripcion": "La Masilla JuntaPro Volcán se encuentra disponible en su formato de polvo elaborado a base de sulfato de yeso y aditivos especiales, especial para el tratamiento de junta invisible de Volcanita, se puede usar además para reparar muros de hormigón, ladrillos y estuco..",
+        "codigo":"Cod: VOL0018",
+        "ficha" : "https://www.volcanperu.com/documents/ficha-tecnica-del-producto/ficha-tcnica-juntapro-cintas-y-masillas.pdf"
+    },{
+        "id": 8,
+        "name": "MASILLA CAJA 20 KG / CONSTRUTEK",
+        "categoria":"MASILLA",
+        "image": "/masilla/masillaconstru.jpg",
+        "descripcion": "Las masillas Construtek, son formuladas con resinas de alta calidad, listas para aplicar con excelente adherencia, textura e incombustible.",
+        "codigo":"Cod: 403109",
+        "ficha" : "https://precor.pe/admin_pmp_precor/public/data/product/download/masillas_1556299495.jpg"
     }
 ]
