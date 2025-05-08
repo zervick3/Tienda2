@@ -7,5 +7,21 @@
         "descripcion": "Las cintas Construtek, son el mejor complemento para otorgar fuerza, resistencia y estética al tratamiento de juntas de una construcción en drywall.",
         "codigo":"Cod: PREC408038",
         "ficha" : "https://precor.pe/admin_pmp_precor//public/data/product/download/FT%20Masilla%20y%20cintas%20CONSTRUTEK_compressed.pdf202202101619381.pdf"
+    },{
+        "id": 2,
+        "name": "CINTA DE PAPEL 5 CM X 75 MT - CONSTRUTEK",
+        "categoria":"CINTA",
+        "image": "/cintas/cintapapel.jpg",
+        "descripcion": "Las cintas Construtek, son el mejor complemento para otorgar fuerza, resistencia y estética al tratamiento de juntas de una construcción en drywall.",
+        "codigo":"Cod: PREC408036",
+        "ficha" : "https://precor.pe/admin_pmp_precor//public/data/product/download/FT%20Masilla%20y%20cintas%20CONSTRUTEK_compressed.pdf202202101619381.pdf"
+    },{
+        "id": 3,
+        "name": "CINTA METALICA 30 MT FLEXIBLE - CONSTRUCTEK",
+        "categoria":"CINTA",
+        "image": "/cintas/cintametalica.jpeg",
+        "descripcion": "Las cintas Construtek, son el mejor complemento para otorgar fuerza, resistencia y estética al tratamiento de juntas de una construcción en drywall.",
+        "codigo":"Cod: PREC408039",
+        "ficha" : "https://precor.pe/admin_pmp_precor//public/data/product/download/FT%20Masilla%20y%20cintas%20CONSTRUTEK_compressed.pdf202202101619381.pdf"
     }
 ]

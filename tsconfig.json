@@ -8,10 +8,12 @@
       ]
     },
     "target": "es6",
+    
     "module": "esnext",
     "lib": [
       "dom",
-      "es6"
+      "es6",
+      "es2020"
     ],
     "strict": true,
     "moduleResolution": "node",
